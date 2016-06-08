@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.n51.agendaTADS">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_agenda"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Tela_inicial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GridLayout" />
+        <activity android:name=".Tela_de_cadastro" />
+        <activity android:name=".Tela_de_retificacao" />
+        <activity android:name=".Tela_de_cadastro_repeticao" />
+        <activity android:name=".Tela_de_retificacao_repeticao" />
+        <activity android:name=".Lista_Compromissos" />
+        <activity android:name=".Calendario2" />
+        <activity
+            android:name="com.example.tads.agendaparacompromissos.Acao"
+            android:label="@string/title_activity_acao"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

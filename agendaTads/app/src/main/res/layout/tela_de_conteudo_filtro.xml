@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:touchscreenBlocksFocus="false"
+    android:backgroundTintMode="multiply">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/v_descricao"
+        android:id="@+id/v_descricao"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:textSize="16dp"
+        android:textColor="#575757"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/v_data_inicio"
+        android:id="@+id/v_data_inicio"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:textSize="16dp"
+        android:textColor="#575757"
+        android:layout_alignTop="@+id/v_horario_inicial"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Horario_inicial"
+        android:id="@+id/Horario_inicial"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_gravity="top"
+        android:textColor="#575757"
+        android:layout_below="@+id/v_descricao"
+        android:layout_toEndOf="@+id/v_data_inicio"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/v_horario_inicial"
+        android:id="@+id/v_horario_inicial"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:textSize="16dp"
+        android:textColor="#575757"
+        android:layout_alignBottom="@+id/Horario_inicial"
+        android:layout_toEndOf="@+id/Horario_inicial" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" horas"
+        android:id="@+id/textView4"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_gravity="top"
+        android:textColor="#575757"
+        android:layout_alignBottom="@+id/v_horario_inicial"
+        android:layout_toEndOf="@+id/v_horario_inicial"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="nads"
+        android:id="@+id/v_local"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:textSize="16dp"
+        android:textColor="#575757"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No local: "
+        android:id="@+id/textView7"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textSize="16dp"
+        android:textColor="#575757"
+        android:layout_below="@+id/Horario_inicial"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Título: "
+        android:id="@+id/textView5"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textSize="16dp"
+        android:textColor="#575757"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No dia: "
+        android:id="@+id/textView8"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textSize="16dp"
+        android:textColor="#575757"
+        android:layout_alignTop="@+id/v_data_inicio"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
